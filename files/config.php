@@ -3,12 +3,12 @@
 // KONFIGURASI KONEKSI DATABASE
 // Sesuaikan jika host/port/user/password Anda berbeda
 // ==========================================================
-$host = '172.17.0.1'; // Ganti localhost jadi IP VPS atau 172.17.0.1
+$host = 'mariadb';
 $port = '3306';
-$db   = 'testing';       // Nama database di AAPanel
-$user = 'Testing';       // Username database di AAPanel
-$pass = 'Testing';       // Password database di AAPanel
-$charset = 'utf8mb4';
+$db = 'default';
+$user = 'mariadb';
+$pass = 'Wahid';
+$charset = 'utf8mb4'; // Biarin permanentseperti ini
 
 $dsn = "mysql:host=$host;port=$port;dbname=$db;charset=$charset";
 $options = [
