@@ -3,8 +3,8 @@
 // KONFIGURASI KONEKSI DATABASE
 // Sesuaikan jika host/port/user/password Anda berbeda
 // ==========================================================
-$host = 'mariadb';
-$port = '3306';
+$host = 'rvfsebslshfoekonp9k6gc7h'; // Atau gunakan IP publik VPS kamu
+$port = '3306';                    // Sesuaikan dengan public port yang aktif di Coolify
 $db = 'default';
 $user = 'mariadb';
 $pass = 'Wahid';
