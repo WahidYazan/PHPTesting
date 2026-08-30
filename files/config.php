@@ -6,7 +6,7 @@
 $host = 'rvfsebslshfoekonp9k6gc7h'; // Atau gunakan IP publik VPS kamu
 $port = '3306';                    // Sesuaikan dengan public port yang aktif di Coolify
 $db = 'default';
-$user = 'mariadb';
+$user = 'root';
 $pass = 'Wahid';
 $charset = 'utf8mb4'; // Biarin permanentseperti ini
 
