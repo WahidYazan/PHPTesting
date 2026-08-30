@@ -3,11 +3,11 @@
 // KONFIGURASI KONEKSI DATABASE
 // Sesuaikan jika host/port/user/password Anda berbeda
 // ==========================================================
-$host    = 'localhost';   // biasanya localhost atau 127.0.0.1
-$port    = '3306';        // port default MariaDB
-$db      = 'parkir';
-$user    = 'root';
-$pass    = 'ServBay.dev';
+$host = '45.198.33.111'; // Ganti localhost jadi IP VPS atau 172.17.0.1
+$port = '3306';
+$db   = 'testing';       // Nama database di AAPanel
+$user = 'Testing';       // Username database di AAPanel
+$pass = 'Testing';       // Password database di AAPanel
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;port=$port;dbname=$db;charset=$charset";
