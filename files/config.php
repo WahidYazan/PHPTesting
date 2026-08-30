@@ -3,7 +3,7 @@
 // KONFIGURASI KONEKSI DATABASE
 // Sesuaikan jika host/port/user/password Anda berbeda
 // ==========================================================
-$host = '45.198.33.111'; // Ganti localhost jadi IP VPS atau 172.17.0.1
+$host = '172.17.0.1'; // Ganti localhost jadi IP VPS atau 172.17.0.1
 $port = '3306';
 $db   = 'testing';       // Nama database di AAPanel
 $user = 'Testing';       // Username database di AAPanel
